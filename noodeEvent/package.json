@@ -1,0 +1,21 @@
+{
+  "name": "noodeevent",
+  "version": "1.0.0",
+  "main": "logEvent.js",
+  "scripts": {
+    "start": "nodemon logEvent.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
