@@ -1,6 +1,14 @@
 const express = require('express');
+const mongoose = require('mongoose');
 
 const app = express(); //create an express app
+
+//connect to the database
+
+const dbURI = '';
+mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
+    .then((result) => console.log('connected to db'))
+    .catch((err) => console.log(err));
 
 
 //listen for requests on port 3000
